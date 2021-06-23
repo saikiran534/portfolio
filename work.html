@@ -1,6 +1,21 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  
+  
+}
+.grid-item {
 
+  width:200%;
+  padding: 30px;
+  font-size: 30px;
+  text-align: center;
+}
+  </style>
 <head>
 
     <!--- basic page needs
@@ -19,6 +34,7 @@
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css"
 
     <!-- script
    ================================================== -->
@@ -92,7 +108,7 @@
 
                     <div class="bgrid folio-item">
                         <div class="item-wrap">
-                            <img src="images\portfolio\modals\Accidentreporter.jpg" alt="aosp">
+                            <img src="images\portfolio\modals\Accidentreporter.jpg" alt="accident">
                             <a href="#modal-01" class="overlay">
                                 <div class="folio-item-table">
                                     <div class="folio-item-cell">
@@ -106,7 +122,7 @@
                         </div>
                     </div> <!-- /folio-item -->
 
-                    <div class="bgrid folio-item">
+                    <!-- <div class="bgrid folio-item">
                         <div class="item-wrap">
                             <img src="images/portfolio/za.jpg" alt="za">
                             <a href="#modal-03" class="overlay">
@@ -120,7 +136,7 @@
                                 </div>
                             </a>
                         </div>
-                    </div> <!-- /folio-item -->
+                    </div> /folio-item -->
 
                     <div class="bgrid folio-item">
                         <div class="item-wrap">
@@ -142,19 +158,19 @@
 
                     <div class="bgrid folio-item">
                         <div class="item-wrap">
-                            <img src="images/portfolio/fml.png" alt="fml">
+                            <img src="images/portfolio/banner.png" alt="fml">
                             <a href="#modal-05" class="overlay">
                                 <div class="folio-item-table">
                                     <div class="folio-item-cell">
-                                        <h3 class="folio-title">Flutter ML</h3>
+                                        <h3 class="folio-title">Conveys Game of life</h3>
                                         <span class="folio-types">
-                                            Application Development
+                                            Game 
                                         </span>
                                     </div>
                                 </div>
                             </a>
                         </div>
-                    </div> <!-- /folio-item -->
+                    </div> /folio-item
 
                     <!-- bootstrap cards
     	            ============================================================= -->
@@ -166,7 +182,7 @@
 
                         <div class="description-box">
                             <h4>Accident Reporter</h4>
-                            <p>This device can detect accidents in significantly less time and sends the basic
+                            <p style="color:white">This device can detect accidents in significantly less time and sends the basic
                                 information to first aid center within a few seconds covering geographical coordinates, the time
                                 and impact in which a vehicle accident had occurred. This alert message is sent to the central
                                 emergency dispatch server in a short time so that the emergency dispatch server will inform to
@@ -182,7 +198,7 @@
 
                     </div> <!-- /modal-01 -->
 
-                    <div id="modal-02" class="popup-modal slider mfp-hide">
+                    <!-- <div id="modal-02" class="popup-modal slider mfp-hide">
 
                         <div class="media">
                             <img src="images/portfolio/modals/aosp.jpg" alt="" />
@@ -196,7 +212,7 @@
                             compatibility requirements that keep the Android ecosystem a healthy and stable environment for millions of users.</p>
 
                             <div class="categories">AOSP</div>
-                        </div>
+                        </div> -->
 
                         <div class="link-box">
                             <a href="https://github.com/ctosp">Details</a>
@@ -205,14 +221,14 @@
 
                     </div> <!-- /modal-02 -->
 
-                    <div id="modal-03" class="popup-modal slider mfp-hide">
+                    <!-- <div id="modal-03" class="popup-modal slider mfp-hide">
 
                         <div class="media">
                             <img src="images/portfolio/modals/za.jpg" alt="" />
                         </div>
 
                         <div class="description-box">
-                            <h4>zombie apocalypse</h4>
+                            <h4></h4>
                             <p>Zombie Apocalypse: Never Die Alone
                             is the sequel to the 2009 arcade game Zombie Apocalypse. Zombie Apocalypse: Never Die Alone improves upon some of the
                             problems the original suffered from, and it makes some new innovations of its own..</p>
@@ -225,16 +241,16 @@
                             <a href="#" class="popup-modal-dismiss">Close</a>
                         </div>
 
-                    </div> <!-- /modal-03 -->
+                    </div> /modal-03 -->
 
                     <div id="modal-04" class="popup-modal slider mfp-hide">
 
                         <div class="media">
-                            <img src="images/portfolio/MERN.png" alt="" />
+                            <img src="images/portfolio/MERN.png" alt="MERN" />
                         </div>
 
                         <div class="description-box">
-                            <h4>Online Exam Application</h4>
+                            <h4>Exam Application</h4>
                             <p> 
                                 <!--/-->
                             </p>
@@ -244,7 +260,7 @@
 
                         <div class="link-box">
                             <a href="https://github.com/Exam-App/Exam-App">Details</a>
-                            <a href=""
+                            <a href="#parsing" class="overlay">Sprint </a>
                             <a href="#" class="popup-modal-dismiss">Close</a>
                         </div>
 
@@ -253,13 +269,15 @@
                     <div id="modal-05" class="popup-modal slider mfp-hide">
 
                         <div class="media">
-                            <img src="images/portfolio/modals/fml.jpeg" alt="fml" />
+                            <img src="images/portfolio/convey.png" alt="fml" />
                         </div>
 
                         <div class="description-box">
-                            <h4>Flutter and Tensorflow</h4>
-                            <p>On-Device Machine Learning: Train And Run TensorFlow Lite Models In Your Flutter Apps
-                            Build, Train, and Run an Image Classifier Neural Network using Deep Transfer Learning in TensorFlow and Keras</p>
+                            <h4>Conveys game of life</h4>
+                            <p>The Game of Life, also known simply as Life, is a cellular automaton devised by the British mathematician John Horton Conway in 1970.
+                              It is a zero-player game, meaning that its evolution is determined by its initial state, requiring no further input. 
+                              One interacts with the Game of Life by creating an initial configuration and observing how it evolves. 
+                              It is Turing complete and can simulate a universal constructor or any other Turing machine.</p>
 
                             <div class="categories">ML application Development</div>
                         </div>
@@ -281,14 +299,342 @@
 
         </div> <!-- /portfolio-content -->
 
-    </section> <!-- /portfolio -->
+    <div id="folio-wrapper" class="block-1-2 block-mob-full stack">
+
+    <div id="pricing" class="pricing">
+      <div class="container">
+
+        <div class="section-title">
+          <h1 style="color:white" align="center">Practicum</h1>
+          
+          <p style="color: white" align="cente">Online Exam Application Sprint Plan</p>
+        </div>
+        <div class="grid-container">
+          <div grid="grid-container">
+                  <div class="grid-item">
+                    <div class="bgrid folio-item" >
+                      <div class="item-wrap">
+                        <img src="images\portfolio\SPRINT-1.png" alt="accident"/>
+                          <a href="#Sprint-1" class="overlay">
+                              <div class="folio-item-table">
+                                  <div class="folio-item-cell">
+                                   
+                                      <span class="folio-types">
+                                       
+                                      </span>
+                                  </div>
+                              </div>
+                          </a>
+                      </div>
+                  </div>
+                </div>
+              </div><div grid="grid-container">
+                  <div class="grid-item">
+                    <div class="bgrid folio-item" >
+                      <div class="item-wrap">
+                        <img src="images\portfolio\SPRINT-2.png" alt="accident"/>
+                          <a href="#Sprint-2" class="overlay">
+                              <div class="folio-item-table">
+                                  <div class="folio-item-cell">
+                                   
+                                      <span class="folio-types">
+                                       
+                                      </span>
+                                  </div>
+                              </div>
+                          </a>
+                      </div>
+                  </div>
+                </div>
+              </div>
+            <div grid="grid-container">
+                  <div class="grid-item">
+                    <div class="bgrid folio-item" >
+                      <div class="item-wrap">
+                        <img src="images\portfolio\SPRINT-3.png" alt="accident"/>
+                          <a href="#Sprint-3" class="overlay">
+                              <div class="folio-item-table">
+                                  <div class="folio-item-cell">
+                                   
+                                      <span class="folio-types">
+                                       
+                                      </span>
+                                  </div>
+                              </div>
+                          </a>
+                      </div>
+                  </div>
+                </div>
+              </div>
+              <div grid="grid-container">
+                  <div class="grid-item">
+                    <div class="bgrid folio-item" >
+                      <div class="item-wrap">
+                        <img src="images\portfolio\SPRINT-4.png" alt="accident"/>
+                          <a href="#Sprint-4" class="overlay">
+                              <div class="folio-item-table">
+                                  <div class="folio-item-cell">
+                                   
+                                      <span class="folio-types">
+                                       
+                                      </span>
+                                  </div>
+                              </div>
+                          </a>
+                      </div>
+                  </div>
+                </div>
+              </div>
+              <div grid="grid-container">
+                  <div class="grid-item">
+                    <div class="bgrid folio-item" >
+                      <div class="item-wrap">
+                        <img src="images\portfolio\SPRINT-5.png" alt="accident"/>
+                          <a href="#Sprint-5" class="overlay">
+                              <div class="folio-item-table">
+                                  <div class="folio-item-cell">
+                                   
+                                      <span class="folio-types">
+                                       
+                                      </span>
+                                  </div>
+                              </div>
+                          </a>
+                      </div>
+                  </div>
+                </div>
+              </div>
+              <div grid="grid-container">
+                  <div class="grid-item">
+                    <div class="bgrid folio-item" >
+                      <div class="item-wrap">
+                        <img src="images\portfolio\SPRINT-6.png" alt="accident"/>
+                          <a href="#Sprint-6" class="overlay">
+                              <div class="folio-item-table">
+                                  <div class="folio-item-cell">
+                                   
+                                      <span class="folio-types">
+                                       
+                                      </span>
+                                  </div>
+                              </div>
+                          </a>
+                      </div>
+                  </div>
+                </div>
+              </div>
+              <div grid="grid-container">
+                  <div class="grid-item">
+                    <div class="bgrid folio-item" >
+                      <div class="item-wrap">
+                        <img src="images\portfolio\SPRINT-7.png" alt="accident"/>
+                          <a href="#Sprint-7" class="overlay">
+                              <div class="folio-item-table">
+                                  <div class="folio-item-cell">
+                                   
+                                      <span class="folio-types">
+                                       
+                                      </span>
+                                  </div>
+                              </div>
+                          </a>
+                      </div>
+                  </div>
+                </div>
+              </div>
+              <div grid="grid-container">
+                  <div class="grid-item">
+                    <div class="bgrid folio-item" >
+                      <div class="item-wrap">
+                        <img src="images\portfolio\SPRINT-8.png" alt="accident"/>
+                          <a href="#Sprint-8" class="overlay">
+                              <div class="folio-item-table">
+                                  <div class="folio-item-cell">
+                                   
+                                      <span class="folio-types">
+                                       
+                                      </span>
+                                  </div>
+                              </div>
+                          </a>
+                      </div>
+                  </div>
+                </div>
+              </div>
+          </div>  
+      
+
+
+
+
+
+
+
+      <div id="Sprint-1" class="popup-modal slider mfp-hide">
+
+        <div class="media">
+            <img src="images\portfolio\flowchart.png" alt=""/>
+        </div>
+
+        <div class="description-box">
+            <h4>Accident Reporter</h4>
+            <p style="color:white">  
+              Firstly as a team we decided to explore the technologies
+              that we are going to use in our project. Our Team lead created a shared git 
+              repository for our project. In the beginning stages I faced few issues with
+              using git however with the help of few resources and my teammates I was able to understand and use it.   
+            
+            </p>
+
+            <div class="categories">Designing </div>
+        </div>
+
+
+
+        <div id="Sprint-2" class="popup-modal slider mfp-hide">
+
+          <div class="media">
+              <img src="images\portfolio\modals\Accidentreporter.jpg" alt="" />
+          </div>
+  
+          <div class="description-box">
+              <h4>Accident Reporter</h4>
+              <p style="color:white">     
+              
+              </p>
+  
+              <div class="categories">IOT device</div>
+          </div>
+
+
+
+          <div id="Sprint-3" class="popup-modal slider mfp-hide">
+
+            <div class="media">
+                <img src="images\portfolio\modals\Accidentreporter.jpg" alt="" />
+            </div>
+    
+            <div class="description-box">
+                <h4>Accident Reporter</h4>
+                <p style="color:white">     
+                
+                </p>
+    
+                <div class="categories">IOT device</div>
+            </div>
+
+
+
+            <div id="Sprint-4" class="popup-modal slider mfp-hide">
+
+              <div class="media">
+                  <img src="images\portfolio\modals\Accidentreporter.jpg" alt="" />
+              </div>
+      
+              <div class="description-box">
+                  <h4>Accident Reporter</h4>
+                  <p style="color:white">     
+                  
+                  </p>
+      
+                  <div class="categories">IOT device</div>
+              </div>
+
+
+
+              <div id="Sprint-5" class="popup-modal slider mfp-hide">
+
+                <div class="media">
+                    <img src="images\portfolio\modals\Accidentreporter.jpg" alt="" />
+                </div>
+        
+                <div class="description-box">
+                    <h4>Accident Reporter</h4>
+                    <p style="color:white">     
+                    
+                    </p>
+        
+                    <div class="categories">IOT device</div>
+                </div>
+
+
+
+
+                <div id="Sprint-6" class="popup-modal slider mfp-hide">
+
+                  <div class="media">
+                      <img src="images\portfolio\modals\Accidentreporter.jpg" alt="" />
+                  </div>
+          
+                  <div class="description-box">
+                      <h4>Accident Reporter</h4>
+                      <p style="color:white">     
+                      
+                      </p>
+          
+                      <div class="categories">IOT device</div>
+                  </div>
+
+
+
+                  <div id="Sprint-7" class="popup-modal slider mfp-hide">
+
+                    <div class="media">
+                        <img src="images\portfolio\modals\Accidentreporter.jpg" alt="" />
+                    </div>
+            
+                    <div class="description-box">
+                        <h4>Accident Reporter</h4>
+                        <p style="color:white">     
+                        
+                        </p>
+            
+                        <div class="categories">IOT device</div>
+                    </div>
+
+
+
+
+                    <div id="Sprint-8" class="popup-modal slider mfp-hide">
+
+                      <div class="media">
+                          <img src="images\portfolio\modals\Accidentreporter.jpg" alt="" />
+                      </div>
+              
+                      <div class="description-box">
+                          <h4>Accident Reporter</h4>
+                          <p style="color:white">     
+                          
+                          </p>
+              
+                          <div class="categories">IOT device</div>
+                      </div>
+
+
+        
+
+        
+
+        
+        
+
+          
+
+
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> <!-- /portfolio -->
 
 
    
 
 
    
-    </section> <!-- /services -->
+  </section> <!-- /services -->
 
     <!-- footer
    ================================================== -->
